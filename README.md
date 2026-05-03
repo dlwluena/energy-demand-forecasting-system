@@ -28,6 +28,26 @@ The project uses hourly electricity demand data (PJME dataset).
   - rolling averages (24h)
   - temporal patterns  
 
+## Note on Data & Models
+
+Due to repository size limitations, the following files are not included:
+
+- Raw dataset (PJME_hourly.csv)
+- Trained model files (.pkl)
+
+To run the project:
+
+1. Download the dataset from Kaggle:
+   https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption
+
+2. Place it inside:
+   data/PJME_hourly.csv
+
+3. Train models:
+   python train.py
+
+This will automatically generate the required model files and predictions.
+
 # Results & Insights
 
 - Electricity demand shows strong **daily and seasonal patterns**
