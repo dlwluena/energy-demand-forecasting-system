@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Models
+*.pkl
+*.joblib
+
+# Data
+outputs/
+*.csv
+
+# Mac
+.DS_Store
