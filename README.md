@@ -2,11 +2,70 @@
 
 This project focuses on predicting future electricity demand by analyzing historical consumption data, weather conditions, and temporal patterns. It utilizes Machine Learning techniques to provide reliable time-series forecasting for energy management.
 
+## Overview
+
+This project focuses on forecasting electricity demand using machine learning and time-series analysis techniques.
+
+Unlike basic forecasting projects, this work emphasizes:
+- model comparison
+- error analysis
+- interpretability
+
 ## Features
 * Time-Series Analysis: Processing and visualizing seasonal patterns and trends in energy consumption.
 * Feature Engineering: Creation of lag features, rolling averages, and cyclical temporal transformations.
 * Advanced Modeling: Implementation of regression algorithms including XGBoost, LightGBM, and Random Forest.
 * Performance Metrics: Evaluation of forecasting accuracy using MAE, RMSE, and R2 Score.
+
+## Dataset
+
+The project uses hourly electricity demand data (PJME dataset).
+
+- Time resolution: hourly  
+- Target variable: electricity demand (MW)  
+- Features:
+  - hour, day, month
+  - rolling averages (24h)
+  - temporal patterns  
+
+# Results & Insights
+
+- Electricity demand shows strong **daily and seasonal patterns**
+- Models perform well on regular patterns but struggle on:
+  - peak demand
+  - sudden fluctuations
+- Feature engineering significantly improves performance
+
+Energy demand forecasting is crucial for:
+- grid stability  
+- cost optimization  
+- renewable energy integration :contentReference[oaicite:0]{index=0}  
+
+## Project Pipeline
+
+1. **Data Preprocessing**
+   - Datetime conversion
+   - Feature engineering (time-based features)
+   - Rolling statistics
+
+2. **Model Training**
+   - Machine learning models trained:
+     - Random Forest
+     - XGBoost
+
+3. **Evaluation**
+   - Metrics:
+     - MAE (Mean Absolute Error)
+     - RMSE (Root Mean Squared Error)
+
+4. **Prediction**
+   - Model generates demand forecasts
+
+5. **Visualization Dashboard**
+   - Built with Streamlit
+   - Interactive analysis of predictions
+
+---
 
 ## Tech Stack
 * Language: Python
@@ -52,3 +111,16 @@ The current model successfully captures daily peaks and seasonal shifts. Perform
 | :--- | :--- | :--- | :--- |
 | Random Forest | 12.45 | 18.30 | 0.89 |
 | XGBoost | 8.12 | 11.45 | 0.95 |
+
+## Future Improvements
+* Integration of weather data
+* Hyperparameter tuning
+* Deep learning models (LSTM, GRU)
+* Real-time forecasting system
+
+## Key Takeaways
+* Energy demand is highly time-dependent
+* Feature engineering is critical
+* Peak demand prediction remains challenging
+* Forecasting systems are essential in modern energy infrastructure
+* 
