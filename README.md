@@ -19,13 +19,21 @@ Unlike basic forecasting projects, this work emphasizes:
 
 ## Energy Demand Prediction
 
+<p align="center">
 <img width="1460" height="669" alt="forecast" src="https://github.com/user-attachments/assets/1a3e6504-d2fb-4fcd-9267-5cc2a5ec6bde" />
+</p>
 
 This graph shows the comparison between actual electricity demand and model predictions (XGBoost).
 The model successfully captures overall trends but struggles during peak demand periods.
 
+This shows that:
+- sudden demand spikes are difficult to model
+- time-based features alone are not sufficient
+- external data (weather, holidays) is needed
 
+<p align="center">
 <img width="726" height="595" alt="peak_analysis" src="https://github.com/user-attachments/assets/73e8b13f-d577-4b51-8e72-b23ae6043444" />
+</p>
 
 The model performs significantly worse during peak demand periods:
 
