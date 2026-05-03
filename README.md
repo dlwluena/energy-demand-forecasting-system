@@ -17,6 +17,24 @@ Unlike basic forecasting projects, this work emphasizes:
 * Advanced Modeling: Implementation of regression algorithms including XGBoost, LightGBM, and Random Forest.
 * Performance Metrics: Evaluation of forecasting accuracy using MAE, RMSE, and R2 Score.
 
+## Energy Demand Prediction
+
+![Forecast](<img width="1460" height="669" alt="forecast" src="https://github.com/user-attachments/assets/1a3e6504-d2fb-4fcd-9267-5cc2a5ec6bde" />)
+
+This graph shows the comparison between actual electricity demand and model predictions (XGBoost).
+The model successfully captures overall trends but struggles during peak demand periods.
+
+## Peak Demand Error Analysis
+
+![Peak Analysis](<img width="726" height="595" alt="peak_analysis" src="https://github.com/user-attachments/assets/73e8b13f-d577-4b51-8e72-b23ae6043444" />)
+
+The model performs significantly worse during peak demand periods:
+
+- Overall MAE: ~1036
+- Peak MAE: ~4865
+
+This indicates that extreme demand conditions are harder to predict, which is a known challenge in real-world energy systems.
+
 ## Dataset
 
 The project uses hourly electricity demand data (PJME dataset).
