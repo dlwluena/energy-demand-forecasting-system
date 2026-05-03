@@ -24,7 +24,6 @@ Unlike basic forecasting projects, this work emphasizes:
 This graph shows the comparison between actual electricity demand and model predictions (XGBoost).
 The model successfully captures overall trends but struggles during peak demand periods.
 
-## Peak Demand Error Analysis
 
 <img width="726" height="595" alt="peak_analysis" src="https://github.com/user-attachments/assets/73e8b13f-d577-4b51-8e72-b23ae6043444" />
 
