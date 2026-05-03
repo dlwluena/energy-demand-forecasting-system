@@ -123,4 +123,3 @@ The current model successfully captures daily peaks and seasonal shifts. Perform
 * Feature engineering is critical
 * Peak demand prediction remains challenging
 * Forecasting systems are essential in modern energy infrastructure
-* 
