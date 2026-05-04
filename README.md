@@ -73,6 +73,18 @@ To run the project:
 
 This will automatically generate the required model files and predictions.
 
+## Research Perspective
+
+This project is not only about building a prediction model, but also understanding the behavior of energy systems.
+
+From the experiments, we observed that:
+
+- Machine learning models can capture general consumption patterns effectively
+- However, extreme peak demand remains difficult to predict
+- This highlights the importance of incorporating external factors such as weather and human activity
+
+This aligns with real-world challenges in energy forecasting and smart grid systems.
+
 # Results & Insights
 
 - Electricity demand shows strong **daily and seasonal patterns**
