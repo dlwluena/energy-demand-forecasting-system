@@ -26,6 +26,17 @@ Unlike basic forecasting projects, this work emphasizes:
 This graph shows the comparison between actual electricity demand and model predictions (XGBoost).
 The model successfully captures overall trends but struggles during peak demand periods.
 
+## Error Analysis
+
+We analyzed model performance across different time periods.
+
+- Average error (MAE): ~1036
+- Peak hour error: ~4865
+
+This shows that the model struggles significantly during peak demand periods.
+
+Understanding these failure cases is critical for improving real-world forecasting systems.
+
 This shows that:
 - sudden demand spikes are difficult to model
 - time-based features alone are not sufficient
