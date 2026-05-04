@@ -37,22 +37,6 @@ This shows that the model struggles significantly during peak demand periods.
 
 Understanding these failure cases is critical for improving real-world forecasting systems.
 
-This shows that:
-- sudden demand spikes are difficult to model
-- time-based features alone are not sufficient
-- external data (weather, holidays) is needed
-
-<p align="center">
-<img width="726" height="595" alt="peak_analysis" src="https://github.com/user-attachments/assets/73e8b13f-d577-4b51-8e72-b23ae6043444" />
-</p>
-
-The model performs significantly worse during peak demand periods:
-
-- Overall MAE: ~1036
-- Peak MAE: ~4865
-
-This indicates that extreme demand conditions are harder to predict, which is a known challenge in real-world energy systems.
-
 ## Dataset
 
 The project uses hourly electricity demand data (PJME dataset).
